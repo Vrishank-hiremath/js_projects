@@ -1,0 +1,22 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px;
+    line-height: 70px;
+}
+
+#allcells{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    width:10px;
+    
+}
+
+#game{
+    font-family:"Anybody", monospace;
+    color: blue;
+    text-align: center;
+}
